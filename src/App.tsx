@@ -62,7 +62,7 @@ const App = () => {
             {/* 顶部个人信息区域 */}
             <PersonalHeader />
 
-            <div className="flex gap-10 p-10">
+            <div className="flex gap-6 p-6">
               {/* 左侧信息 */}
               <LeftSidebar />
 

@@ -16,25 +16,25 @@ const LeftSidebar = () => {
   ]
 
   return (
-    <div className="w-1/3 space-y-8">
+    <div className="w-1/3 space-y-4">
       <section className="transform transition-all duration-300 hover:translate-x-2">
-        <h2 className="text-2xl font-bold mb-6 text-gray-800 border-b-2 border-purple-200 pb-2 flex items-center">
-          <i className="i-mdi-account-details mr-3 text-2xl text-purple-600"></i>核心优势
+        <h2 className="text-lg font-bold mb-3 text-gray-800 border-b-2 border-purple-200 pb-1.5 flex items-center">
+          <i className="i-mdi-account-details mr-2 text-lg text-purple-600"></i>核心优势
         </h2>
-        <div className="space-y-4">
+        <div className="space-y-2">
           {achievements.map((achievement, index) => (
             <div
               key={index}
-              className="flex items-start gap-3 group hover:bg-purple-50 p-3 rounded-lg transition-all"
+              className="flex items-start gap-2 group hover:bg-purple-50 p-2 rounded-lg transition-all"
             >
               <i
-                className={`${achievement.icon} text-2xl text-purple-600 group-hover:scale-110 transition-transform mt-1`}
+                className={`${achievement.icon} text-lg text-purple-600 group-hover:scale-110 transition-transform mt-0.5`}
               ></i>
               <div>
-                <span className="font-medium text-gray-800 group-hover:text-purple-600 transition-colors block">
+                <span className="text-sm font-medium text-gray-800 group-hover:text-purple-600 transition-colors block">
                   {achievement.text}
                 </span>
-                <span className="text-sm text-gray-600">{achievement.desc}</span>
+                <span className="text-xs text-gray-600">{achievement.desc}</span>
               </div>
             </div>
           ))}
@@ -42,45 +42,45 @@ const LeftSidebar = () => {
       </section>
 
       <section className="transform transition-all duration-300 hover:translate-x-2">
-        <h2 className="text-2xl font-bold mb-6 text-gray-800 border-b-2 border-purple-200 pb-2 flex items-center">
-          <i className="i-mdi-account-details mr-3 text-2xl text-purple-600"></i>基本信息
+        <h2 className="text-lg font-bold mb-3 text-gray-800 border-b-2 border-purple-200 pb-1.5 flex items-center">
+          <i className="i-mdi-account-details mr-2 text-lg text-purple-600"></i>基本信息
         </h2>
-        <div className="space-y-2">
-          <div className="flex items-center gap-3 group hover:bg-purple-50 p-2 rounded-lg transition-all">
-            <i className="i-mdi-clock text-xl text-purple-600 group-hover:scale-110 transition-transform"></i>
-            <span className="text-gray-700">
+        <div className="space-y-1.5">
+          <div className="flex items-center gap-2 group hover:bg-purple-50 p-1.5 rounded-lg transition-all">
+            <i className="i-mdi-clock text-base text-purple-600 group-hover:scale-110 transition-transform"></i>
+            <span className="text-sm text-gray-700">
               <span className="font-medium text-purple-600">5年+</span> 前端开发经验
             </span>
           </div>
-          <div className="flex items-center gap-3 group hover:bg-purple-50 p-2 rounded-lg transition-all">
-            <i className="i-mdi-school text-xl text-purple-600 group-hover:scale-110 transition-transform"></i>
-            <span className="text-gray-700">汕头大学 · 本科</span>
+          <div className="flex items-center gap-2 group hover:bg-purple-50 p-1.5 rounded-lg transition-all">
+            <i className="i-mdi-school text-base text-purple-600 group-hover:scale-110 transition-transform"></i>
+            <span className="text-sm text-gray-700">汕头大学 · 本科</span>
           </div>
-          <div className="flex items-center gap-3 group hover:bg-purple-50 p-2 rounded-lg transition-all">
-            <i className="i-mdi-map-marker text-xl text-purple-600 group-hover:scale-110 transition-transform"></i>
-            <span className="text-gray-700">深圳 · 可远程</span>
+          <div className="flex items-center gap-2 group hover:bg-purple-50 p-1.5 rounded-lg transition-all">
+            <i className="i-mdi-map-marker text-base text-purple-600 group-hover:scale-110 transition-transform"></i>
+            <span className="text-sm text-gray-700">深圳 · 可远程</span>
           </div>
-          <div className="flex items-center gap-3 group hover:bg-purple-50 p-2 rounded-lg transition-all">
-            <i className="i-mdi-currency-cny text-xl text-purple-600 group-hover:scale-110 transition-transform"></i>
-            <span className="text-gray-700">期望薪资：35K+</span>
+          <div className="flex items-center gap-2 group hover:bg-purple-50 p-1.5 rounded-lg transition-all">
+            <i className="i-mdi-currency-cny text-base text-purple-600 group-hover:scale-110 transition-transform"></i>
+            <span className="text-sm text-gray-700">期望薪资：35K+</span>
           </div>
         </div>
       </section>
 
       <section className="transform transition-all duration-300 hover:translate-x-2">
-        <h2 className="text-2xl font-bold mb-6 text-gray-800 border-b-2 border-purple-200 pb-2 flex items-center">
-          <i className="i-mdi-tools mr-3 text-2xl text-purple-600"></i>技术栈
+        <h2 className="text-lg font-bold mb-3 text-gray-800 border-b-2 border-purple-200 pb-1.5 flex items-center">
+          <i className="i-mdi-tools mr-2 text-lg text-purple-600"></i>技术栈
         </h2>
-        <div className="space-y-6">
+        <div className="space-y-3">
           {skills.map((skill) => (
-            <div key={skill.name} className="space-y-2 group">
+            <div key={skill.name} className="space-y-1.5 group">
               <div className="flex justify-between">
-                <span className="text-gray-700 font-medium group-hover:text-purple-600 transition-colors">
+                <span className="text-sm text-gray-700 font-medium group-hover:text-purple-600 transition-colors">
                   {skill.name}
                 </span>
-                <span className="text-purple-600 font-bold">{skill.level}%</span>
+                <span className="text-sm text-purple-600 font-bold">{skill.level}%</span>
               </div>
-              <div className="h-2 bg-gray-100 rounded-full overflow-hidden">
+              <div className="h-1.5 bg-gray-100 rounded-full overflow-hidden">
                 <div
                   className="h-full bg-gradient-to-r from-purple-500 to-indigo-500 rounded-full transition-all duration-500 group-hover:from-purple-600 group-hover:to-indigo-600"
                   style={{ width: `${skill.level}%` }}

@@ -1,17 +1,17 @@
 const SangforProjects = () => {
   return (
-    <div className="space-y-8">
-      <div className="project-card bg-gradient-to-br from-gray-50 to-purple-50 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300">
-        <h4 className="font-bold text-xl mb-4 text-gray-800">
+    <div className="space-y-4">
+      <div className="project-card bg-gradient-to-br from-gray-50 to-purple-50 rounded-xl p-4 shadow-sm hover:shadow-md transition-all duration-300">
+        <h4 className="font-bold text-base mb-2 text-gray-800">
           🌟 企业级安全产品开发
-          <span className="text-sm font-normal text-gray-500 ml-3 bg-white px-3 py-1 rounded-full">
+          <span className="text-xs font-normal text-gray-500 ml-2 bg-white px-2 py-0.5 rounded-full">
             Vue2, TypeScript, Ext, 企业级应用
           </span>
         </h4>
-        <div className="space-y-4">
+        <div className="space-y-2">
           <div>
-            <h5 className="font-semibold text-purple-600 mb-2">🎯 职业起步与成长</h5>
-            <p className="text-gray-700 leading-relaxed">
+            <h5 className="text-sm font-semibold text-purple-600 mb-1">🎯 职业起步与成长</h5>
+            <p className="text-xs text-gray-700 leading-relaxed">
               <span className="font-medium text-purple-600">成长轨迹：</span>
               从初级前端工程师起步，在知名网络安全公司深信服快速成长。
               <span className="font-medium text-purple-600">技术积累：</span>
@@ -20,7 +20,7 @@ const SangforProjects = () => {
           </div>
           <div>
             <h5 className="font-semibold text-purple-600 mb-2">🔧 核心项目成果</h5>
-            <ul className="space-y-3 text-gray-700">
+            <ul className="space-y-1.5 text-xs text-gray-700">
               <li className="leading-relaxed">
                 <span className="font-medium text-purple-600">🔥 AF防火墙管理平台：</span>
                 主导开发新一代防火墙管理系统，实现设备监控、配置管理、安全策略等核心功能，为企业网络安全提供强力保障。
@@ -41,9 +41,9 @@ const SangforProjects = () => {
           </div>
           <div>
             <h5 className="font-semibold text-purple-600 mb-2">💻 全栈能力展现</h5>
-            <div className="bg-gradient-to-r from-blue-50 to-purple-50 p-4 rounded-lg">
-              <p className="font-medium text-gray-800 mb-2">🛒 UEDC商城系统（全栈项目）</p>
-              <ul className="list-disc list-inside space-y-1 text-gray-700 text-sm">
+            <div className="bg-gradient-to-r from-blue-50 to-purple-50 p-2 rounded-lg">
+              <p className="text-sm font-medium text-gray-800 mb-1">🛒 UEDC商城系统（全栈项目）</p>
+              <ul className="list-disc list-inside space-y-0.5 text-gray-700 text-xs">
                 <li>
                   <span className="font-medium">前端：</span>Vue SPA应用，响应式设计，现代化UI交互
                 </li>
@@ -61,34 +61,34 @@ const SangforProjects = () => {
           </div>
           <div>
             <h5 className="font-semibold text-purple-600 mb-2">🏆 技术能力提升</h5>
-            <div className="bg-gradient-to-r from-green-50 to-blue-50 p-4 rounded-lg">
-              <div className="grid grid-cols-2 gap-4 text-center">
+            <div className="bg-gradient-to-r from-green-50 to-blue-50 p-2 rounded-lg">
+              <div className="grid grid-cols-2 gap-2 text-center">
                 <div>
-                  <div className="text-2xl font-bold text-purple-600">🎯</div>
-                  <div className="text-sm text-gray-600">企业级产品经验</div>
+                  <div className="text-lg font-bold text-purple-600">🎯</div>
+                  <div className="text-xs text-gray-600">企业级产品经验</div>
                 </div>
                 <div>
-                  <div className="text-2xl font-bold text-purple-600">🔧</div>
-                  <div className="text-sm text-gray-600">全栈开发能力</div>
+                  <div className="text-lg font-bold text-purple-600">🔧</div>
+                  <div className="text-xs text-gray-600">全栈开发能力</div>
                 </div>
                 <div>
-                  <div className="text-2xl font-bold text-purple-600">📈</div>
-                  <div className="text-sm text-gray-600">架构设计思维</div>
+                  <div className="text-lg font-bold text-purple-600">📈</div>
+                  <div className="text-xs text-gray-600">架构设计思维</div>
                 </div>
                 <div>
-                  <div className="text-2xl font-bold text-purple-600">⚡</div>
-                  <div className="text-sm text-gray-600">性能优化经验</div>
+                  <div className="text-lg font-bold text-purple-600">⚡</div>
+                  <div className="text-xs text-gray-600">性能优化经验</div>
                 </div>
               </div>
             </div>
           </div>
           <div>
             <h5 className="font-semibold text-purple-600 mb-2">🌱 职业发展价值</h5>
-            <p className="text-gray-700 leading-relaxed">
+            <p className="text-xs text-gray-700 leading-relaxed">
               在深信服的经历为我后续的技术leader之路提供了
-              <span className="bg-yellow-100 px-2 py-1 rounded">企业级产品开发经验</span>， 培养了
-              <span className="bg-yellow-100 px-2 py-1 rounded">全栈技术视野</span>和
-              <span className="bg-yellow-100 px-2 py-1 rounded">系统架构思维</span>，
+              <span className="bg-yellow-100 px-1 py-0.5 rounded">企业级产品开发经验</span>， 培养了
+              <span className="bg-yellow-100 px-1 py-0.5 rounded">全栈技术视野</span>和
+              <span className="bg-yellow-100 px-1 py-0.5 rounded">系统架构思维</span>，
               为成长为前端架构师奠定了坚实基础。
             </p>
           </div>
