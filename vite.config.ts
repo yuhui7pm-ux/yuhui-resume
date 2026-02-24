@@ -6,6 +6,11 @@ import UnoCSS from 'unocss/vite'
 export default defineConfig({
   base: '/yuhui-resume/',
   plugins: [react(), UnoCSS()],
+  build: {
+    outDir: 'dist',
+    emptyOutDir: true,
+    sourcemap: false,
+  },
   server: {
     open: true,
   },
