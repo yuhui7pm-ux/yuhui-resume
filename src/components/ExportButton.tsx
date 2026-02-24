@@ -132,20 +132,20 @@ const ExportButton = ({ onExportStart, onExportEnd, resumeRef }: ExportButtonPro
   }
 
   return (
-    <div className="fixed bottom-8 right-8 flex flex-col gap-6 export-buttons">
+    <div className="fixed bottom-6 right-6 flex flex-col gap-3 export-buttons">
       <button
         onClick={exportToImage}
-        className="w-20 h-20 rounded-full bg-gradient-to-r from-purple-600 to-indigo-600 text-white flex items-center justify-center shadow-lg hover:scale-110 transition-all duration-300 ease-in-out hover:shadow-purple-300"
+        className="w-12 h-12 rounded-full bg-gradient-to-r from-purple-600 to-indigo-600 text-white flex items-center justify-center shadow-lg hover:scale-110 transition-all duration-300 ease-in-out hover:shadow-purple-300"
         title="导出图片"
       >
-        <i className="i-mdi-image text-4xl"></i>
+        <i className="i-mdi-image text-2xl"></i>
       </button>
       <button
         onClick={handlePrint}
-        className="w-20 h-20 rounded-full bg-gradient-to-r from-purple-600 to-indigo-600 text-white flex items-center justify-center shadow-lg hover:scale-110 transition-all duration-300 ease-in-out hover:shadow-purple-300"
+        className="w-12 h-12 rounded-full bg-gradient-to-r from-purple-600 to-indigo-600 text-white flex items-center justify-center shadow-lg hover:scale-110 transition-all duration-300 ease-in-out hover:shadow-purple-300"
         title="导出PDF"
       >
-        <i className="i-mdi-file-pdf text-4xl"></i>
+        <i className="i-mdi-file-pdf text-2xl"></i>
       </button>
     </div>
   )

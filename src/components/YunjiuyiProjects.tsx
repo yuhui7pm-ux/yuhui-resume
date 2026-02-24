@@ -21,7 +21,7 @@ const YunjiuyiProjects = () => {
           </div>
           <div>
             <h5 className="text-sm font-semibold text-purple-600 mb-1">🏗️ 核心技术架构</h5>
-            <div className="space-y-3">
+            <div className="space-y-1.5">
               <div className="bg-gradient-to-r from-blue-50 to-purple-50 p-2 rounded-lg">
                 <p className="text-sm font-medium text-gray-800 mb-1">🎯 游戏引擎设计</p>
                 <ul className="list-disc list-inside space-y-0.5 text-gray-700 text-xs">
@@ -125,7 +125,7 @@ const YunjiuyiProjects = () => {
           </div>
           <div>
             <h5 className="text-sm font-semibold text-purple-600 mb-1">📈 运营成果</h5>
-            <p className="text-gray-700">
+            <p className="text-xs text-gray-700">
               <span className="bg-green-100 px-1 py-0.5 rounded">线上稳定运行1年+</span>
               ，支撑公司全球业务拓展
             </p>
@@ -173,8 +173,8 @@ const YunjiuyiProjects = () => {
           </div>
           <div>
             <h5 className="text-sm font-semibold text-purple-600 mb-1">🏆 商业价值</h5>
-            <p className="text-gray-700">
-              B端平台V2和APK版本<span className="bg-green-100 px-2 py-1 rounded">成功上线1年+</span>
+            <p className="text-xs text-gray-700">
+              B端平台V2和APK版本<span className="bg-green-100 px-1 py-0.5 rounded">成功上线1年+</span>
               ，为商户提供稳定的运营服务
             </p>
           </div>
@@ -234,8 +234,8 @@ const YunjiuyiProjects = () => {
           </div>
           <div>
             <h5 className="text-sm font-semibold text-purple-600 mb-1">📊 业务成果</h5>
-            <p className="text-gray-700">
-              后台V2版本<span className="bg-green-100 px-2 py-1 rounded">稳定运行1年+</span>
+            <p className="text-xs text-gray-700">
+              后台V2版本<span className="bg-green-100 px-1 py-0.5 rounded">稳定运行1年+</span>
               ，商户端后台已分配给商户长期使用
             </p>
           </div>

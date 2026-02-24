@@ -20,7 +20,7 @@ const XiaokuProjects = () => {
             </p>
           </div>
           <div>
-            <h5 className="font-semibold text-purple-600 mb-2">🚀 核心技术创新</h5>
+            <h5 className="text-sm font-semibold text-purple-600 mb-1">🚀 核心技术创新</h5>
             <ul className="space-y-1 text-xs text-gray-700">
               <li className="leading-relaxed">
                 <span className="font-medium text-purple-600">渲染引擎：</span>
@@ -41,7 +41,7 @@ const XiaokuProjects = () => {
             </ul>
           </div>
           <div>
-            <h5 className="font-semibold text-purple-600 mb-2">🏆 业务价值</h5>
+            <h5 className="text-sm font-semibold text-purple-600 mb-1">🏆 业务价值</h5>
             <div className="bg-gradient-to-r from-purple-50 to-blue-50 p-2 rounded-lg">
               <div className="grid grid-cols-2 gap-2 text-center">
                 <div>
@@ -56,7 +56,7 @@ const XiaokuProjects = () => {
             </div>
           </div>
           <div>
-            <h5 className="font-semibold text-purple-600 mb-2">🔗 技术作品</h5>
+            <h5 className="text-sm font-semibold text-purple-600 mb-1">🔗 技术作品</h5>
             <div className="space-y-1">
               <a
                 href="https://www.yuque.com/login?goto=https%3A%2F%2Fwww.yuque.com%2Fg%2Fyuhui-syyd0%2Fzvhoye%2Fuenvm451sixwsewv%2Fcollaborator%2Fjoin%3Ftoken%3Dmq4VHs6FnUtTWPNO%26source%3Ddoc_collaborator#%20%E3%80%8A%E5%B0%8F%E5%BA%93_%E6%99%BA%E8%83%BD%E5%AE%A1%E5%9B%BE%E3%80%8B"
@@ -90,7 +90,7 @@ const XiaokuProjects = () => {
             </p>
           </div>
           <div>
-            <h5 className="font-semibold text-purple-600 mb-2">🔧 技术架构亮点</h5>
+            <h5 className="text-sm font-semibold text-purple-600 mb-1">🔧 技术架构亮点</h5>
             <ul className="space-y-1 text-xs text-gray-700">
               <li className="leading-relaxed">
                 <span className="font-medium text-purple-600">智能识别：</span>
@@ -111,7 +111,7 @@ const XiaokuProjects = () => {
             </ul>
           </div>
           <div>
-            <h5 className="font-semibold text-purple-600 mb-2">🏆 技术成果</h5>
+            <h5 className="text-sm font-semibold text-purple-600 mb-1">🏆 技术成果</h5>
             <div className="bg-gradient-to-r from-green-50 to-blue-50 p-2 rounded-lg">
               <div className="flex items-center justify-center gap-4">
                 <div className="text-center">
@@ -130,7 +130,7 @@ const XiaokuProjects = () => {
             </div>
           </div>
           <div>
-            <h5 className="font-semibold text-purple-600 mb-2">🔗 创新展示</h5>
+            <h5 className="text-sm font-semibold text-purple-600 mb-1">🔗 创新展示</h5>
             <div className="space-y-2">
               <a
                 href="https://www.yuque.com/g/yuhui-syyd0/zvhoye/guyuqq/collaborator/join?token=8aI2ZZwdtrRddSqv&source=doc_collaborator#%20%E3%80%8A%E5%B0%8F%E5%BA%93_%E6%99%BA%E8%83%BD%E5%8D%95%E4%BD%93%E3%80%8B"
@@ -163,7 +163,7 @@ const XiaokuProjects = () => {
             </p>
           </div>
           <div>
-            <h5 className="font-semibold text-purple-600 mb-2">🔧 核心特性</h5>
+            <h5 className="text-sm font-semibold text-purple-600 mb-1">🔧 核心特性</h5>
             <ul className="space-y-1 text-xs text-gray-700">
               <li className="leading-relaxed">
                 <span className="font-medium text-purple-600">工具集成：</span>
@@ -184,9 +184,9 @@ const XiaokuProjects = () => {
             </ul>
           </div>
           <div>
-            <h5 className="font-semibold text-purple-600 mb-2">📊 运营成果</h5>
-            <p className="text-gray-700">
-              平台<span className="bg-green-100 px-2 py-1 rounded">长期稳定运行</span>
+            <h5 className="text-sm font-semibold text-purple-600 mb-1">📊 运营成果</h5>
+            <p className="text-xs text-gray-700">
+              平台<span className="bg-green-100 px-1 py-0.5 rounded">长期稳定运行</span>
               ，为设计团队提供持续的管理支持
             </p>
           </div>

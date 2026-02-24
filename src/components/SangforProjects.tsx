@@ -19,7 +19,7 @@ const SangforProjects = () => {
             </p>
           </div>
           <div>
-            <h5 className="font-semibold text-purple-600 mb-2">🔧 核心项目成果</h5>
+            <h5 className="text-sm font-semibold text-purple-600 mb-1">🔧 核心项目成果</h5>
             <ul className="space-y-1.5 text-xs text-gray-700">
               <li className="leading-relaxed">
                 <span className="font-medium text-purple-600">🔥 AF防火墙管理平台：</span>
@@ -40,7 +40,7 @@ const SangforProjects = () => {
             </ul>
           </div>
           <div>
-            <h5 className="font-semibold text-purple-600 mb-2">💻 全栈能力展现</h5>
+            <h5 className="text-sm font-semibold text-purple-600 mb-1">💻 全栈能力展现</h5>
             <div className="bg-gradient-to-r from-blue-50 to-purple-50 p-2 rounded-lg">
               <p className="text-sm font-medium text-gray-800 mb-1">🛒 UEDC商城系统（全栈项目）</p>
               <ul className="list-disc list-inside space-y-0.5 text-gray-700 text-xs">
@@ -60,7 +60,7 @@ const SangforProjects = () => {
             </div>
           </div>
           <div>
-            <h5 className="font-semibold text-purple-600 mb-2">🏆 技术能力提升</h5>
+            <h5 className="text-sm font-semibold text-purple-600 mb-1">🏆 技术能力提升</h5>
             <div className="bg-gradient-to-r from-green-50 to-blue-50 p-2 rounded-lg">
               <div className="grid grid-cols-2 gap-2 text-center">
                 <div>
@@ -83,7 +83,7 @@ const SangforProjects = () => {
             </div>
           </div>
           <div>
-            <h5 className="font-semibold text-purple-600 mb-2">🌱 职业发展价值</h5>
+            <h5 className="text-sm font-semibold text-purple-600 mb-1">🌱 职业发展价值</h5>
             <p className="text-xs text-gray-700 leading-relaxed">
               在深信服的经历为我后续的技术leader之路提供了
               <span className="bg-yellow-100 px-1 py-0.5 rounded">企业级产品开发经验</span>， 培养了
